@@ -11,11 +11,17 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: rgb(227, 215, 117);
+    /* Ajoutez le chemin ou l'URL de votre image en remplaçant 'url_de_votre_image.jpg' */
+    background: url('pays.jpg') no-repeat center center fixed;
+    
+    /* Propriétés supplémentaires pour le fond */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le corps */
+    margin: 0; /* Supprime les marges par défaut du corps */
+    padding: 0; /* Supprime les rembourrages par défaut du corps */
+    height: 100vh; /* Utilise la hauteur totale de la fenêtre visible */
+    display: flex; /* Permet d'utiliser la disposition flexible si nécessaire */
+    align-items: center; /* Centre le contenu verticalement si vous utilisez la disposition flexible */
+    justify-content: center; /* Centre le contenu horizontalement si vous utilisez la disposition flexible */
 
 }
 
